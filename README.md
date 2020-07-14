@@ -2,11 +2,11 @@
 
 San Restaurant 
 
-This is a site of a restaurant which serves both European and West African meals.
+This is a site of a restaurant.
 
-Contains of this site incude an 
+Contents of this site incude an 
 
-1. About us page -----> This contains information about who we are as well as the staff.
+1. About us page -----> This contains information about who we are and what we offer.
 2. Gallery------------> Images of the restaurant and food that we serve.
 3. Contact us---------> Our contact details, Address and bookings form.
 4. Home page----------> Overview and navigation of the site.
