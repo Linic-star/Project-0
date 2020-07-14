@@ -2,39 +2,26 @@
 <html lang="en">
 
 	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link href="San.css" rel="stylesheet" type="text/css">
+		<link href="Contact us.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome.min.css">
 
 		<title>Contact us</title>
-			<style>
-		
-							body {
-					
-								background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("Background.jpg");
-									}
 			
-		
-					</style>
 	</head>
 
-	<body>
+	<body background="Salmon.jpg">
 		<header>
-				<div class="container">
-					<div class="row">
-						<a href="#" class="logo pull-right">Logo</a>
-						<nav class="pull-right">
-							<button type="button" class="btn" data-toggle="collapse" data-target="#menu">
-								<i class="fa fa-navicon"></i>
-							</button>
-							<div class="collapse" id="menu">
-								<ul>
-									<li><a href="">Home</a></li>
-									<li><a href="Gallery.html">Gallery</a></li>
-									<li><a href="About us.html">About</a></li>
-									<li><a href="Contact us.html">Contact us</a></li>
-									<li><a href="Menu.html">Menu</a></li>
-								</ul>
-							</div>
-						</nav>
-					</div>
+				<h1>SAN.RESTAURANT.BAR</h1>
+				<div class="topnav">
+					<a class="active" href="San Restaurant.html">Home</a>
+					<a href="Gallery.html">Gallery</a>
+					<a href="About us.html">About us</a>
+					<a href="Contact us.html">Contact us</a>
+					<a href="Menu.html">Menu</a>
 				</div>
 			</header>
 		
@@ -42,9 +29,48 @@
 		
 		<hr>
 		<h1 id="Main heading" style="text-align: center;font-size: 80px;">WELCOME TO SAN RESTAURANT</h1>
-		<p style="color: black;font-size: 60px;text-align: center;">Fine dining with an African flair</p>
+		<p style="color: darkcyan;font-size: 60px;text-align: center;">Fine dining with an African flair</p>
 		
 		 <hr>
+		
+		<p style="text-align: center; color: red; font-size: 40px;">Discover pure food indulgence</p>
+		
+		<form style="align-content: center;">
+			<fieldset>
+				<p>
+					<label for="fname">First name</label>
+					<input type="text" id="fname" name="fname" placeholder="John">
+				</p>
+					<label for="lname">Last name</label>
+					<input type="text" id="lname" name="lname" placeholder="Doe">
+				</p>
+					<label for="Number of guests">Pax</label>
+					<input type="numbers" list="numbers" placeholder="00">
+				
+				</p>
+					<br>
+				
+					<label for="phone number">Cell number</label>
+					<input type="tel" list="country-codes" placeholder="+27 123 456 7890">
+				</p>
+				
+				<p>
+					<label for="email">Email</label>
+					<input type="email" placeholder="example@gmail.com">
+				</p>
+					<label for="date">Date</label>
+					<input type="datetime-local" placeholder="example@gmail.com">
+				
+				<p>
+					
+					<label>Text area</label>
+					<textarea id="myTextArea" rows="3" cols="80"> Instructions </textarea>
+				</p>
+
+					<br>
+					<input type="submit" value="submit">
+			</fieldset>	
+		</form>
 		
 		
 

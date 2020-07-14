@@ -2,7 +2,9 @@
 /* CSS Document */
 table {
 	border-collapse: collapse;
-	width: 70%
+	width: 70%;
+	align-content: center;
+	margin-left: 50px;
 }
 th {
 	background-color: black;
@@ -13,5 +15,14 @@ th {
 
 tr td {
 	padding:20px;
+}
+
+td {
+	color: white;
+}
+
+p {
+	align-content: center;
+	margin: 30px;
 }
 
