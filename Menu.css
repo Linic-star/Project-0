@@ -26,3 +26,14 @@ p {
 	margin: 30px;
 }
 
+	.grey {
+	background-color: rgba(0,0,0,0.6);
+}
+
+#white {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.grey,#white {
+	opacity: 
+}

@@ -18,6 +18,10 @@ row {
 	vertical-align: middle;
 }
 
+img {
+	resize: 400px;
+}
+
 @media screen and (max-width:1000px) {
 	.column {
 		flex: 20%;

@@ -14,19 +14,19 @@ body {
 		background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("Salmon.jpg");
 }
 
---/* Header Section*/--
+/* Header Section*/
 
 header {
-	background-color: #333; 
-	height: 112px;
-	line-height: 112px;
+	background-color: black; 
+	height: 50px;
+	line-height: 50px;
 	color: #fff;
 	
 }
 
 /* Background color */
 .topnav {
-	background-color: #333;
+	background-color: black;
 	overflow: hidden;
 }
 
@@ -35,9 +35,13 @@ header {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 8px 10px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 12px;
+}
+
+.topnav a.logo {
+	float: left;
 }
 
 /* Hover effect */
@@ -75,5 +79,5 @@ p { color: white;
 }
 
 hr {
-	border: 2px solid white;
+	border: 2px white;
 }
